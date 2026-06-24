@@ -4,7 +4,7 @@ export default function SigninPage() {
   return (
     <div className="min-h-screen flex items-center justify-center px-6">
       {/* CARD */}
-      <div className="w-full max-w-md p-8 rounded-2xl bg-white/70 backdrop-blur-xl border border-gray-200 shadow-lg">
+      <div className="w-full max-w-md p-8 rounded-2xl bg-white border border-gray-200 ">
         {/* TITLE */}
         <h1 className="text-2xl font-bold text-center">
           Selamat Datang Kembali
@@ -21,7 +21,7 @@ export default function SigninPage() {
             alt="Google"
             className="w-5 h-5"
           />
-          <span className="text-sm font-medium text-gray-700">
+          <span className="text-sm font-medium text-gray-700 cursor-pointer">
             Masuk dengan Google
           </span>
         </button>

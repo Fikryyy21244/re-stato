@@ -4,7 +4,7 @@ export default function SignupPage() {
   return (
     <div className="min-h-screen flex items-center justify-center px-6">
       {/* CARD */}
-      <div className="w-full max-w-md p-8 rounded-2xl bg-white/60 backdrop-blur-xl border border-white/30 shadow-lg">
+      <div className="w-full max-w-md p-8 rounded-2xl bg-white border border-white/30 ">
         {/* TITLE */}
         <h1 className="text-2xl font-bold text-center">Buat Akun</h1>
 
@@ -13,7 +13,7 @@ export default function SignupPage() {
         </p>
 
         {/* GOOGLE BUTTON */}
-        <button className="mt-6 w-full flex items-center justify-center gap-3 border border-gray-200 py-3 rounded-xl hover:bg-gray-50 transition">
+        <button className="mt-6 w-full flex items-center justify-center gap-3 border border-gray-200 py-3 rounded-xl hover:bg-gray-50 transition cursor-pointer">
           <img
             src="https://www.google.com/favicon.ico"
             alt="Google"
