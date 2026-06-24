@@ -1,15 +1,15 @@
 import Link from "next/link";
 
 const NAVIGATION = [
-  { label: "Home", href: "/" },
-  { label: "Features", href: "/features" },
-  { label: "Learning Path", href: "/learning-path" },
-  { label: "About", href: "/about" },
-  { label: "Login", href: "/signin" },
-  { label: "Get Started", href: "/signup" },
+  { label: "Beranda", href: "/" },
+  { label: "Fitur", href: "/features" },
+  { label: "Jalur Belajar", href: "/learning-path" },
+  { label: "Tentang", href: "/about" },
+  { label: "Masuk", href: "/signin" },
+  { label: "Daftar", href: "/signup" },
 ];
 
-const DEVELOPER = [{ label: "About Developer", href: "/developer" }];
+const DEVELOPER = [{ label: "Tentang Pengembang", href: "/developer" }];
 
 export default function Footer() {
   return (
@@ -21,14 +21,14 @@ export default function Footer() {
           <div>
             <h2 className="font-bold text-lg">Re:Stato</h2>
             <p className="text-sm text-gray-600 mt-3 leading-relaxed">
-              Platform belajar Bahasa Jepang dengan sistem gamification,
-              progress tracking, dan pembelajaran interaktif.
+              Platform belajar Bahasa Jepang dengan sistem gamifikasi, pelacakan
+              progres, dan pembelajaran interaktif.
             </p>
           </div>
 
           {/* NAVIGATION */}
           <div>
-            <h3 className="font-semibold mb-3">Navigation</h3>
+            <h3 className="font-semibold mb-3">Navigasi</h3>
 
             <div className="flex flex-col gap-2 text-sm text-gray-600">
               {NAVIGATION.map((item) => (
@@ -45,7 +45,7 @@ export default function Footer() {
 
           {/* DEVELOPER */}
           <div>
-            <h3 className="font-semibold mb-3">Developer</h3>
+            <h3 className="font-semibold mb-3">Pengembang</h3>
 
             <div className="flex flex-col gap-2 text-sm text-gray-600">
               {DEVELOPER.map((item) => (
@@ -57,9 +57,6 @@ export default function Footer() {
                   {item.label}
                 </Link>
               ))}
-
-              <p>Independent Developer</p>
-              <p>Education × Tech × UI/UX</p>
             </div>
           </div>
         </div>

@@ -39,7 +39,7 @@ export default function Navbar() {
           {/* ACTION */}
           <div className="flex items-center gap-3">
             {/* THEME BUTTON */}
-            <button className="flex items-center gap-2 px-3 py-2 rounded-full border border-gray-300 hover:bg-gray-100 transition text-sm">
+            <button className="flex items-center gap-2 p-3  rounded-full border border-gray-300 hover:bg-gray-100 transition text-sm cursor-pointer">
               <Moon size={16} />
             </button>
 
