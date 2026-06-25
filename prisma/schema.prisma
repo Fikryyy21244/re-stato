@@ -17,8 +17,8 @@ model User {
 
   email String @unique
   username String?
-  country String 
-  birthday String 
+  country String?
+  birthday String? 
   image String?
 
   level String @default("N5")

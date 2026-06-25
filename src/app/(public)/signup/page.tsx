@@ -13,7 +13,7 @@ export default function SignupPage() {
         </p>
 
         {/* GOOGLE BUTTON */}
-        <button className="mt-6 w-full flex items-center justify-center gap-3 border border-gray-200 py-3 rounded-xl hover:bg-gray-50 transition cursor-pointer">
+        <button className="mt-6 w-full flex items-center justify-center gap-3 border border-gray-200 py-3 rounded-xl hover:bg-gray-50 transition ">
           <img
             src="https://www.google.com/favicon.ico"
             alt="Google"

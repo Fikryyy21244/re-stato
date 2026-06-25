@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Sora, Space_Grotesk, Geist } from "next/font/google";
 import "./globals.css";
-import { cn } from "@/lib/utils";
+import { cn } from "@/src/lib/utils";
 
 const sora = Sora({
   variable: "--font-sora",
